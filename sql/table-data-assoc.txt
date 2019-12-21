@@ -1,0 +1,100 @@
+member_data_keys
+  record_id
+  member_id 
+  district  
+  full_name
+
+congress_member
+  record_id
+  first_name   
+  middle_name  
+  last_name    
+  suffix       
+  chamber      
+  district     
+  state        
+  birthdate    
+  gender       
+  religion     
+  race         
+  lgbtq        
+  last_updated 
+
+member_ids_urls
+  record_id
+  member_id        
+  govtrack_id      
+  cspan_id         
+  votesmart_id     
+  icpsr_id         
+  crp_id           
+  google_entity_id 
+  fec_candidate_id 
+  ocd_id           
+  geoid            
+  rss_url
+  url
+  api_uri
+
+district_demographics
+  district                            
+  record_id                           
+  acs_white_adult_pct_2016            
+  acs_black_adult_pct_2016            
+  acs_latinx_adult_pct_2016           
+  acs_asian_pac_adult_pct_2016        
+  acs_native_amer_adult_pct_2016      
+  acs_other_adult_pct_2016            
+  census_white_adult_pct_2010         
+  census_black_adult_pct_2010         
+  census_latinx_adult_pct_2010        
+  census_asian_pac_adult_pct_2010     
+  census_native_amer_adult_pct_2010   
+  census_other_adult_pct_2010         
+  pct_bachelors_or_higher_2017        
+  rankings_bachelors_or_higher_2017   
+  acs_median_household_income_2017    
+  acs_household_income_rankings_2017  
+  population_total                    
+  population_white                    
+  population_black                    
+  population_latinx                   
+  population_asian_pac                
+  population_native_amer              
+  population_other                    
+  number_potential_voters_total       
+  number_potential_voters_white       
+  number_potential_voters_black       
+  number_potential_voters_latinx      
+  number_potential_voters_asian_pac   
+  number_potential_voters_native_amer 
+  number_potential_voters_other       
+  census_population_total_2010        
+  census_population_white_2010        
+  census_population_black_2010        
+  census_population_latinx_2010       
+  census_population_asian_pac_2010    
+  census_population_native_amer_2010  
+  census_population_other_2010        
+;
+
+
+member_service
+  record_id
+  member_id               
+  in_office
+  office
+  term_start              
+  term_end                
+  next_election           
+  leadership_role         
+  seniority               
+  party                   
+  caucus
+  total_votes             
+  missed_votes            
+  total_present           
+  missed_votes_pct        
+  votes_with_party_pct    
+  votes_against_party_pct 
+;
